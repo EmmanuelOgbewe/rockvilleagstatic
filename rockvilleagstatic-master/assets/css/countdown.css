@@ -1,0 +1,33 @@
+
+ #countdown * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1;
+ }
+
+ 
+
+  .container {
+    color: #333;
+    text-align: center;
+  }
+
+  #countdown h1 {
+    font-weight: normal;
+  }
+
+  #countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+
+  #countdown li span {
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 4.0rem;
+  }
+
+  
