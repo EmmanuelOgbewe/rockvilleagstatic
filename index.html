@@ -85,13 +85,25 @@
   .cnt223 .x:hover {
     cursor: pointer;
   }
-
-  /* phones */
-  @media screen and (max-width: 660px) {
+/* handle orientation */
+  @media screen and (orientation: landscape) {
 	.cnt223 {
 		height: 80vh;
+		width: 40em;
+		position: relative;
+		padding-bottom: 40px;
+		overflow: scroll;
+		margin-bottom: 20%;
+	}
+  }
+
+  /* phones */
+ 
+  @media screen and (max-width: 660px) {
+	.cnt223 {
+		height: 65vh;
 		width: 20em;
-		overflow-y: scroll;
+		overflow: scroll;
 		position: relative;
 	}
 	.cnt223 h4 {
